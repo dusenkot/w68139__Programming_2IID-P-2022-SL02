@@ -6,6 +6,7 @@
 <script src="/Laboratorium3/zad3.js"></script>
 <script src="/Laboratorium3/zad2.js"></script>
 <script src="/Laboratorium3/zad4.js"></script>
+<script src="/Laboratorium3/zad5.js"></script>
 </head>
 <body>
     <h1 id="tekst">Witaj!</h1>
@@ -15,5 +16,10 @@
     <h1 id="zad">Click zad3 </h1>
     <button onclick="suma()">Kliknij mnie</button>
     <div id="czas"></div>
+    <h1> Gra w zgadywanie liczby </h1>
+	<p> Komputer wylosował liczbę z przedziału 0-100. Spróbuj zgadnąć, jaka to liczba! </p>
+	<label> Wprowadź swoją propozycję liczby: </label>
+	<input type="text" id="guess">
+	<button onclick="checkGuess()"> Sprawdź </button>
 </body>
 </html>
