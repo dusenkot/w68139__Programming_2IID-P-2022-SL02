@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratoirum 6</title>
+</head>
+<body>
+    <style>
+        .selected{
+            background-color: blue;
+        }
+    </style>
+    <button id="btn1">Przycisk 1</button>
+    <button id="btn2">Przycisk 2</button>
+    <button id="btn3">Przycisk 3</button>
+    <h1>Dodaj wartości do tabeli</h1>
+
+	<label for="inputImie">Imię:</label>
+	<input type="text" id="inputImie">
+	<label for="inputNazwisko">Nazwisko:</label>
+	<input type="text" id="inputNazwisko">
+	<button onclick="addValue()">Dodaj</button>
+
+	<table>
+		<thead>
+			<tr>
+				<th>Imię</th>
+				<th>Nazwisko</th>
+			</tr>
+		</thead>
+		<tbody id="tableBody"></tbody>
+	</table>
+
+    <script src="/Laboratorium6/zad1.js"></script>
+    <script src="/Laboratorium6/zad2.js"></script>
+    <script src="/Laboratorium6/zad3.js"></script>
+    <script src="/Laboratorium6/zad4.js"></script>
+</body>
+</html>
